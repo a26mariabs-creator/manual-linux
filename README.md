@@ -27,3 +27,14 @@ Para reiniciar un servicio y aplicar cambios de configuración (requiere permiso
 ```bash
 sudo systemctl restart nombre-servicio
 ```
+
+## Gestión de usuarios
+
+Para crear un nuevo usuario en el sistema:
+```bash
+useradd nombre-usuario
+```
+Para eliminar un usuario del sistema:
+```bash
+userdel -r nombre-usuario
+``
