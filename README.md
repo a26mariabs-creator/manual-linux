@@ -18,3 +18,12 @@ Para comprobar la conectividad:
 ```bash
 ping 8.8.8.8
 ```
+## Gestión de servicios
+Para consultar el estado de un servicio:
+```bash
+systemctl status nombre-servicio
+```
+Para reiniciar un servicio y aplicar cambios de configuración (requiere permisos de administrador):
+```bash
+sudo systemctl restart nombre-servicio
+```
