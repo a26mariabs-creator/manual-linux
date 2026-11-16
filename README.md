@@ -49,3 +49,8 @@ y el repositorio remoto se encuentra alojado en GitHub.
 * Añadir un apartado sobre gestión de permisos y propietarios (`chmod` y `chown`).
 * Incluir ejemplos prácticos de copias de seguridad y compresión (`tar` y `gzip`).
 * Documentar el análisis de registros del sistema y logs (`journalctl`).
+
+## Recomendaciones de seguridad
+* Evitar el uso habitual de la cuenta `root` y emplear `sudo` únicamente para tareas administrativas puntuales.
+* Configurar el cortafuegos (`ufw`) para bloquear conexiones entrantes innecesarias y mantener solo abiertos los puertos esenciales.
+* Asignar permisos restrictivos (`chmod`) a archivos de configuración críticos y realizar copias de seguridad periódicas.
