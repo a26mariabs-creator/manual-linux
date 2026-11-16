@@ -37,4 +37,10 @@ useradd nombre-usuario
 Para eliminar un usuario del sistema:
 ```bash
 userdel -r nombre-usuario
-``
+```
+
+## Información del proyecto
+
+Esta documentación se ha elaborado utilizando Markdown.
+El control de versiones se realiza mediante Git
+y el repositorio remoto se encuentra alojado en GitHub.
