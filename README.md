@@ -44,3 +44,8 @@ userdel -r nombre-usuario
 Esta documentación se ha elaborado utilizando Markdown.
 El control de versiones se realiza mediante Git
 y el repositorio remoto se encuentra alojado en GitHub.
+
+## Próximas mejoras
+* Añadir un apartado sobre gestión de permisos y propietarios (`chmod` y `chown`).
+* Incluir ejemplos prácticos de copias de seguridad y compresión (`tar` y `gzip`).
+* Documentar el análisis de registros del sistema y logs (`journalctl`).
